@@ -7,7 +7,7 @@ def my_benchmark(num_times,&block)
 
   timeAfterBlockExecution = Time.now
   
-  finalTime = timeAfterBlockExecution - timeBeforeExecution
+  finalTime = timeAfterBlockExecution - timeBeforeBlockExecution
 
   return finalTime
 end
